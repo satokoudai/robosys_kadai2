@@ -1,5 +1,5 @@
 <launch>
-<--初めにpub（送信）を起動し、次にsub（受信）を起動します。うえから順に起動-->
+<!--初めにpub（送信）を起動し、次にsub（受信）を起動します。うえから順に起動-->
 <node pkg = "mypkg" name = "flash_pub" type = "flash_pub.py" output="screen"/>
 <node pkg = "mypkg" name = "flash_sub" type = "flash_sub.py" output="screen"/>
 </launch>
