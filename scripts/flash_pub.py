@@ -24,7 +24,7 @@ if __name__ == '__main__':
    ###周り続ける
     while not rospy.is_shutdown():
         i = raw_input()###入力を受け付ける。プログラムが入力待ちになる
-        pub = rospy.Publisher('led_flash_str', String, queue_size=1)
+        pub = rospy.Publisher('led_flash_str', String, queue_size=1)###トピックにメッセージを入れる
         pub.publish(i)
 
         if i == '0' :
