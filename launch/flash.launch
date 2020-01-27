@@ -1,0 +1,4 @@
+<launch>
+<node pkg = "mypkg" name = "flash_pub" type = "flash_pub.py" output="screen"/>
+<node pkg = "mypkg" name = "flash_sub" type = "flash_sub.py" output="screen"/>
+</launch>
